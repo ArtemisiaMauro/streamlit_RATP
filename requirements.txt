@@ -1,3 +1,9 @@
 matplotlib
 seaborn
 plotly
+streamlit
+pandas
+altair
+subprocess
+re
+importopenpyxl
