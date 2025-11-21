@@ -1,6 +1,7 @@
 matplotlib
 seaborn
 plotly
+plotly.express
 streamlit
 pandas
 altair
