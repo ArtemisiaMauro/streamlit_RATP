@@ -8,7 +8,6 @@ import re
 st.caption("Artemisia MAURO")
 
 st.header("Analyse du trafic du réseau de métro parisien (RATP)")
-st.divider()
 
 st.write("La Régie autonome des transports parisiens (RATP) assure l'exploitation d'une partie des transports en commun de Paris et de sa banlieue.")
 st.write("Afin d'observer l'efficacité de ce réseau, nous allons analyser le trafic de certaines lignes de métro et de RER en 2021.")
@@ -117,5 +116,6 @@ chart = alt.Chart(df_top_stations).mark_bar().encode(
 st.altair_chart(chart, use_container_width=True)
 st.write("Comme vu précédemment, les quartiers les plus fréquentés étaient parfois ceux comportant une ou plusieurs gares. Ce dernier graphique nous montre qu'effectivement la présence de ces gares doit être l'un des facteurs les plus importants quant au nombre d'usagers répertoriés.")
 st.write("Parmi les 10 stations qui comptaient le plus d'usagers en 2021, 7 d'entres elles sont des stations desservant de grandes gares parisiennes. À côté de ces gares nous retrouvons aussi de grandes stations connues pour leur fréquentation comme Châtelet Les Halles ou Naterre Préfecture.")
+
 
 st.write("En résumé, l'analyse du trafic 2021 met en évidence que la majorité des usagers se concentre sur quelques lignes et stations clés, notamment le RER A et les lignes 1 et 4 du métro, ainsi que dans des arrondissements et villes centrales comme Paris et certaines communes des Hauts-de-Seine. La présence de grandes gares semble être un facteur déterminant dans la fréquentation élevée de certaines stations. Globalement, le réseau RATP a connu une hausse significative du trafic par rapport à l'année précédente, soulignant l'importance de ces axes pour la mobilité quotidienne.")
