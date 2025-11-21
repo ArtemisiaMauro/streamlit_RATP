@@ -76,7 +76,7 @@ st.write("Les 3 lignes les plus fréquentées sont le RER A et les métros 4 et 
 st.write("Les arrondissements les plus fréquentés sont quant à eux le 12ème, 10ème, 8ème et 1er : d'importantes gares comme la Gare du Nord ou la Gare saint Lazare se trouve dans certains de ces arrondissements.")
 
 
-st.subheader("Les villes les plus fréquentées par le réseau d'usagers")
+st.subheader("Les 5 villes les plus fréquentées par les usagers")
 
 # --- Nettoyage et conversion en numérique ---
 df['Trafic'] = pd.to_numeric(df['Trafic'], errors='coerce').fillna(0)
@@ -119,4 +119,5 @@ st.write("Parmi les 10 stations qui comptaient le plus d'usagers en 2021, 7 d'en
 
 
 st.write("En résumé, l'analyse du trafic 2021 met en évidence que la majorité des usagers se concentre sur quelques lignes et stations clés, notamment le RER A et les lignes 1 et 4 du métro, ainsi que dans des arrondissements et villes centrales comme Paris et certaines communes des Hauts-de-Seine. La présence de grandes gares semble être un facteur déterminant dans la fréquentation élevée de certaines stations. Globalement, le réseau RATP a connu une hausse significative du trafic par rapport à l'année précédente, soulignant l'importance de ces axes pour la mobilité quotidienne.")
+
 
