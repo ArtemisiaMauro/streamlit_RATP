@@ -1,10 +1,5 @@
-matplotlib
-seaborn
-plotly
-plotly.express
-streamlit
-pandas
-altair
-subprocess
-re
-importopenpyxl
+streamlit==1.26.0
+pandas==2.1.0
+altair==5.0.1
+plotly==5.16.1
+openpyxl==3.1.2
