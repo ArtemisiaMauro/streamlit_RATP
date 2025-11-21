@@ -52,7 +52,7 @@ col2.metric(
     value=f"{nb_lignes:,.0f}"
 )
 st.write("Parmi les 14 lignes analysées, la RATP a vu sa part d'usagers augmenter d'un peu plus de 33%, c'est-à-dire de près de 305 millions d'usagers.")
-st.write("Dans cette table, nous retrouvons que 14 de l'ensemble des lignes du réseau.")
+
 
 st.subheader("Trafic par ligne ou arrondissement")
 # --- Sélecteur utilisateur ---
@@ -119,5 +119,6 @@ st.write("Parmi les 10 stations qui comptaient le plus d'usagers en 2021, 7 d'en
 
 
 st.write("En résumé, l'analyse du trafic 2021 met en évidence que la majorité des usagers se concentre sur quelques lignes et stations clés, notamment le RER A et les lignes 1 et 4 du métro, ainsi que dans des arrondissements et villes centrales comme Paris et certaines communes des Hauts-de-Seine. La présence de grandes gares semble être un facteur déterminant dans la fréquentation élevée de certaines stations. Globalement, le réseau RATP a connu une hausse significative du trafic par rapport à l'année précédente, soulignant l'importance de ces axes pour la mobilité quotidienne.")
+
 
 
